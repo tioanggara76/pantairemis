@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bg-navbar: rgb(109, 109, 255);
+    --color: white;
+}
+
+.navbar{
+    background-color: var(--bg-navbar);
+    padding: 15px;
+}
+
+.navbar .navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(232, 229, 227);
+    padding-top: 10px;
+}
+
+.notif {
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+   
+}
+
+.notif i{
+    font-size: 20px;
+}
+
+form{
+    width: 100%;
+    margin: 15px;
+}
+
+/* testimonials */
+.testimonials {
+    padding: 100px 0;
+}
+
+.testimonials-item {
+    background-color: var(--bg-navbar);
+    padding: 30px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.testimonials-item .info {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials-item .name {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    /* color: #fff; */
+    line-height: 1.2;
+}
+
+.testimonials-item .job {
+    text-transform: capitalize;
+    /* color: #fff; */
+}
+
+.testimonials-item p {
+    margin-top: 20px;
+    /* color: #fff; */
+}
+
+.swiper-pagination {
+    position: relative;
+    margin-top: 10px;
+    bottom: auto;
+}
+
+.swiper-pagination-bullet {
+    height: 7px;
+    width: 7px;
+    background-color: var(--bg-navbar);
+}
+
+
+
+.content-icon{
+    display: inline-block;
+}
+
+.text-white i{
+    font-size: 40px;
+} 
+
+
+ /* kalau dia ukuran mobile  */
+ @media only screen and (max-width: 600px) {
+    .navbar{
+        /* margin: 5px;
+        border-radius: 20px; */
+    }
+ }
